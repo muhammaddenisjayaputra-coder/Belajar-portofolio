@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portofolio Muhammad Denis Jaya Putra, siswa kelas X TJKT.">
+<title>Muhammad Denis Jaya Putra | Junior Network Engineer</title>
+<style>
+:root{--bg:#081321;--panel:#102137;--text:#edf6ff;--muted:#9db0c5;--mint:#39d8c5;--blue:#68aaff;--line:rgba(170,200,230,.16)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Inter,"Segoe UI",Arial,sans-serif;background:radial-gradient(circle at 85% 8%,#39d8c51c,transparent 27rem),var(--bg);color:var(--text);line-height:1.7}
+a{color:inherit;text-decoration:none}.wrap{width:min(1060px,calc(100% - 40px));margin:auto}
+header{position:sticky;top:0;z-index:5;background:#081321df;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav{height:70px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:850;letter-spacing:.08em}.brand span,h1 span{color:var(--mint)}
+.links{display:flex;gap:24px;color:var(--muted);font-size:.9rem}.links a:hover{color:var(--mint)}
+.hero{min-height:620px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:45px;padding:75px 0}
+.badge{display:inline-block;color:var(--mint);border:1px solid #39d8c555;background:#39d8c510;border-radius:30px;padding:6px 13px;font-size:.78rem;font-weight:750;letter-spacing:.08em}
+h1{font-size:clamp(2.8rem,6vw,5rem);line-height:1.06;letter-spacing:-.06em;margin:22px 0 17px}.hero p,.muted{color:var(--muted);max-width:590px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:11px 18px;border-radius:9px;font-weight:700;font-size:.9rem;display:inline-block}
+.primary{background:var(--mint);color:#07151c}.outline{border:1px solid var(--line)}.outline:hover{border-color:var(--mint);color:var(--mint)}
+.network{height:340px;border:1px solid var(--line);border-radius:24px;background:linear-gradient(145deg,#142a43,#0c1b2d);display:grid;place-items:center;position:relative;overflow:hidden}
+.network:before,.network:after{content:"";position:absolute;width:250px;height:250px;border:1px solid #68aaff33;border-radius:50%}.network:after{width:350px;height:350px}
+.diagram{width:250px;height:230px;position:relative;z-index:1}.node{position:absolute;width:55px;height:55px;border-radius:15px;background:#193651;border:1px solid #39d8c577;color:var(--mint);display:grid;place-items:center;font-size:1.4rem}
+.center{width:75px;height:75px;left:87px;top:78px;font-size:1.8rem;background:#39d8c522}.n1{top:0;left:0}.n2{top:0;right:0}.n3{bottom:0;left:0}.n4{bottom:0;right:0}
+.wire{position:absolute;width:112px;height:2px;background:linear-gradient(90deg,transparent,var(--blue),var(--mint))}
+.w1{left:42px;top:47px;transform:rotate(38deg)}.w2{left:137px;top:108px;transform:rotate(-38deg)}.w3{left:42px;top:182px;transform:rotate(-38deg)}.w4{left:137px;top:124px;transform:rotate(38deg)}
+section.content{padding:72px 0}.label{font-size:.75rem;color:var(--mint);font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+h2{font-size:clamp(2rem,4vw,2.7rem);margin:7px 0 25px;letter-spacing:-.04em}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{background:#102137cc;border:1px solid var(--line);border-radius:17px;padding:25px}.card p{color:var(--muted)}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px}.fact{background:#162b43;padding:14px;border-radius:11px}.fact small{display:block;color:var(--muted)}.fact strong{font-size:.92rem}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.skill{background:var(--panel);border:1px solid var(--line);padding:22px;border-radius:15px}.icon{font-size:1.5rem}.skill h3,.project h3{margin:8px 0}.skill p,.project p{color:var(--muted);font-size:.91rem}
+.tag{color:var(--mint);font-size:.73rem;letter-spacing:.08em}.projects{display:grid;grid-template-columns:1fr 1fr;gap:18px}.note{font-size:.83rem;color:var(--muted);margin-top:14px}
+.contact{padding:30px;border:1px solid #39d8c555;border-radius:19px;background:linear-gradient(110deg,#39d8c51a,#68aaff12);display:flex;justify-content:space-between;align-items:center;gap:20px}
+footer{border-top:1px solid var(--line);padding:23px 0;text-align:center;color:var(--muted);font-size:.85rem}
+@media(max-width:740px){.hero{grid-template-columns:1fr;padding:60px 0}.grid2,.skills,.projects{grid-template-columns:1fr}.contact{align-items:flex-start;flex-direction:column}.links{gap:12px;font-size:.78rem}}
+@media(max-width:430px){.wrap{width:calc(100% - 28px)}.facts{grid-template-columns:1fr}.links{gap:8px}.links a{font-size:.72rem}}
+</style>
+</head>
+<body>
+<header><nav class="wrap"><a class="brand" href="#home">MDJP<span>.</span></a><div class="links"><a href="#tentang">Tentang</a><a href="#keahlian">Keahlian</a><a href="#proyek">Proyek</a><a href="#kontak">Kontak</a></div></nav></header>
+<main>
+<section class="wrap hero" id="home">
+<div><div class="badge">● JUNIOR NETWORK ENGINEER</div>
+<h1>Halo, saya<br><span>Muhammad Denis.</span></h1>
+<p>Muhammad Denis Jaya Putra, siswa kelas X jurusan Teknik Jaringan Komputer dan Telekomunikasi (TJKT). Saya tertarik mempelajari jaringan komputer, infrastruktur jaringan, dan teknologi komunikasi.</p>
+<div class="actions"><a class="btn primary" href="#proyek">Lihat Portofolio ↗</a><a class="btn outline" href="#kontak">Hubungi Saya</a></div></div>
+<div class="network" aria-label="Ilustrasi topologi jaringan"><div class="diagram"><i class="wire w1"></i><i class="wire w2"></i><i class="wire w3"></i><i class="wire w4"></i><div class="node n1">⌘</div><div class="node n2">⌁</div><div class="node n3">▤</div><div class="node n4">◉</div><div class="node center">⌘</div></div></div>
+</section>
+<section class="wrap content" id="tentang"><div class="label">01 / Tentang Saya</div><h2>Mengenal lebih dekat.</h2>
+<div class="grid2"><div class="card"><p>Saya adalah pelajar yang sedang membangun pengetahuan dan keterampilan di bidang jaringan komputer. Saya tertarik memahami bagaimana perangkat saling terhubung, mempelajari konfigurasi jaringan, dan menyelesaikan masalah teknis secara terstruktur.</p><p style="margin-top:12px">Melalui pembelajaran di sekolah dan latihan praktik, saya terus mengembangkan kemampuan untuk menjadi network engineer yang kompeten.</p></div>
+<div class="card facts"><div class="fact"><small>Nama Lengkap</small><strong>Muhammad Denis Jaya Putra</strong></div><div class="fact"><small>Kelas</small><strong>X - TJKT</strong></div><div class="fact"><small>Jurusan</small><strong>Teknik Jaringan Komputer dan Telekomunikasi</strong></div><div class="fact"><small>Bidang Minat</small><strong>Networking & Infrastruktur</strong></div></div></div></section>
+<section class="wrap content" id="keahlian"><div class="label">02 / Keahlian</div><h2>Bidang yang saya pelajari.</h2>
+<div class="skills"><article class="skill"><div class="icon">🌐</div><h3>Dasar Jaringan</h3><p>Mempelajari LAN, WAN, topologi jaringan, dan fungsi perangkat jaringan.</p></article><article class="skill"><div class="icon">🔌</div><h3>Perangkat & Kabel</h3><p>Mengenal router, switch, access point, kabel UTP, dan konektor RJ45.</p></article><article class="skill"><div class="icon">🛠️</div><h3>Troubleshooting</h3><p>Belajar mengidentifikasi gangguan koneksi dan pemeriksaan dasar jaringan.</p></article></div></section>
+<section class="wrap content" id="proyek"><div class="label">03 / Proyek Pembelajaran</div><h2>Latihan dan eksplorasi.</h2>
+<div class="projects"><article class="card project"><div class="tag">NETWORK FUNDAMENTAL</div><h3>Mengenal Topologi Jaringan</h3><p>Mempelajari topologi star, bus, dan ring beserta karakteristik serta penggunaannya.</p></article><article class="card project"><div class="tag">NETWORK CABLING</div><h3>Pengenalan Kabel UTP</h3><p>Mempelajari jenis kabel, susunan warna straight dan crossover, serta konektor RJ45.</p></article></div>
+<p class="note">Tambahkan foto praktik dan hasil konfigurasi dari proyek yang benar-benar pernah dikerjakan.</p></section>
+<section class="wrap content" id="kontak"><div class="contact"><div><div class="label">04 / Kontak</div><h2 style="margin-bottom:5px">Mari terhubung.</h2><p class="muted">Terbuka untuk belajar, berbagi pengetahuan, dan berdiskusi seputar teknologi jaringan.</p></div><a class="btn primary" href="mailto:emailkamu@example.com">Kirim Email ↗</a></div></section>
+</main>
+<footer><div class="wrap">© 2026 Muhammad Denis Jaya Putra · Junior Network Engineer Portfolio</div></footer>
+</body></html>
